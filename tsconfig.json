@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noLib": false,
+        "rootDir": ".",
+        "sourceMap": true,
+        "sourceRoot": ".",
+        "target": "es5"
+    },
+    "compileOnSave": true,
+    "filesGlob": [
+        "./rxRouter.d.ts",
+        "./node_modules/rx/ts/rx.d.ts"
+    ],
+    "files": [
+        "./rxRouter.d.ts",
+        "./node_modules/rx/ts/rx.d.ts"
+    ]
+}

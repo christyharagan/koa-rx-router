@@ -1,0 +1,23 @@
+{
+  "name": "koa-rx-router",
+  "version": "0.1.0",
+  "description": "Expose koa-router middleware as rx observables.",
+  "main": "lib/rxRouter.js",
+  "repository": "christyharagan/koa-rx-router",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "keywords": [
+    "koa",
+    "router",
+    "rx"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "koa-body": "^1.2.1",
+    "koa-router": "^5.1.2",
+    "rx": "^2.5.3"
+  }
+}
