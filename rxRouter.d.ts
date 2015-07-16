@@ -16,6 +16,8 @@ declare module "koa-rx-router" {
     post(name:string, path:string): Observable<any>
     post(path:string): Observable<any>
 
+    _post(path: string, ret:(...args:any[])=>any): void
+
     put(name:string, path:string): Observable<any>
     put(path:string): Observable<any>
 
