@@ -11,6 +11,10 @@
         "target": "es5"
     },
     "compileOnSave": true,
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
     "filesGlob": [
         "./rxRouter.d.ts",
         "./node_modules/rx/ts/rx.d.ts"
