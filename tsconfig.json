@@ -1,14 +1,13 @@
 {
     "compilerOptions": {
-        "emitDecoratorMetadata": true,
-        "declaration": false,
+        "declaration": true,
         "module": "commonjs",
-        "noImplicitAny": false,
-        "noLib": false,
-        "rootDir": ".",
+        "rootDir": "./src",
+        "outDir": ".",
         "sourceMap": true,
         "sourceRoot": ".",
-        "target": "es5"
+        "target": "es6",
+        "moduleResolution": "node"
     },
     "compileOnSave": true,
     "formatCodeOptions": {
@@ -17,10 +16,11 @@
     },
     "filesGlob": [
         "./rxRouter.d.ts",
-        "./node_modules/rx/ts/rx.d.ts"
+        "./node_modules/rx/ts/rx.lite.d.ts"
     ],
     "files": [
-        "./rxRouter.d.ts",
-        "./node_modules/rx/ts/rx.d.ts"
-    ]
+        "rxRouter.d.ts",
+        "node_modules/rx/ts/rx.lite.d.ts"
+    ],
+    "exclude": []
 }

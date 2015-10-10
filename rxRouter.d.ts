@@ -4,7 +4,7 @@ export interface Options {
   prefix: string
 }
 
-export class RxRouter {
+interface RxRouter {
   constructor(opts?: Options)
 
   get(name: string, path: string): Observable<any>
