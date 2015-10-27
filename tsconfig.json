@@ -19,8 +19,8 @@
         "./node_modules/rx/ts/rx.lite.d.ts"
     ],
     "files": [
-        "rxRouter.d.ts",
-        "node_modules/rx/ts/rx.lite.d.ts"
+        "./rxRouter.d.ts",
+        "./node_modules/rx/ts/rx.lite.d.ts"
     ],
     "exclude": []
 }
