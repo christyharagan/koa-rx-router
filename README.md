@@ -23,7 +23,7 @@ let router = new RxRouter({
     prefix: '/mlListener'
 })
 
-let observable = server.post('/myPath').map(function(value){
+let observable = router.post('/myPath').map(function(value){
   return value + ' Hello World'
 })
 
